@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-color: black;
+    color: rgb(255, 217, 0);
+    overflow: hidden;
+    text-align: center;
+
+}
+.header h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    height: 30px;
+    margin-top: -.3rem;
+}
+.nav ul {
+    padding-left: 0rem;
+}
+.nav li{
+    display: inline;
+    padding-right:2rem;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: black;
+    font-weight: bold;
+}
+.nav a { 
+    text-decoration: none;
+}
+.nav a :hover{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+.nav{
+    background-color: gold;
+    overflow: hidden;
+    border-bottom: solid black 4px;
+
+}
+.banner {
+    background-image:  url(shs.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 45rem;
+
+}
+.banner_head h1{
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    padding-top:60px;
+}
+.main_box{
+    display: flex;
+    position: relative;
+    bottom: 5rem;
+    justify-content:space-evenly;
+
+}
+.box{
+    background-color: rgba(207, 180, 23, 0.514);
+    width: 19rem;
+    height: 15rem;
+    margin-top: 3rem;
+    color:rgba(255, 217, 0, 0.582);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+
+}
+.box:hover{
+    background-color: rgba(56, 49, 5, 0.377);
+    transition-duration: 1s;
+    color: black;
+}
+.inside_box{
+    text-align: center;
+    overflow: hidden;
+}
+

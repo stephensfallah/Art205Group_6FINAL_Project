@@ -1,0 +1,76 @@
+@media (max-width: 900px) {
+    /* header style here */
+    .header {
+        height: 550px;
+    }
+    /* header HEY style here */
+    .hey {
+        margin: auto;
+        width: 50%;
+        font-size: 20px;
+        border: 0px solid white;
+        margin-top: 15%;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 30px;
+    }
+    .hey h1 {
+        font-size: 33px;
+        margin: 20px;
+        padding: 0;
+    }
+    /* smaller boxes*/
+    .smaller-box button {
+        margin: 10px;
+        padding: 10px 35px 10px 35px;
+        border-radius: 30px;
+        background-color: black;
+        border-style: none;
+        
+    }
+    .smaller-box button a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .container-box{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        padding-top: 20px;
+        
+    }
+    .three-boxes {
+        width: 90%;
+        margin: auto;
+        height: fit-content;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+
+    }
+    .nav li {
+        display: none;
+    }
+    .hey {
+        bottom: 50%;
+        margin: auto;
+        width: 50%;
+        font-size: 23px;
+        border: 0px solid white;
+        margin-top: 15%;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.267);
+        color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px rgba(2, 2, 2, 0.993);
+        border-radius: 15px;
+        padding: 15px;
+    }
+.smaller-box {
+    display: block;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    
+
+}
+}
